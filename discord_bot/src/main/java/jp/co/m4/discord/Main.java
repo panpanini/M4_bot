@@ -14,7 +14,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        String token = args[0];
+        String token = System.getenv("TOKEN");
         new Main(token);
     }
 }
